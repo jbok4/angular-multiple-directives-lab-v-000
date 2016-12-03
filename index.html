@@ -15,7 +15,7 @@
                     <h4>Name: {{ contact.name }}</h4>
                     <h6>Phone: {{ contact.phone }}</h6>
 
-                    <a href="" ng-click="vm.removeContact()">Delete</a>
+                    <a href="" ng-click="vm.removeContact($index)">Delete</a>
                    <!--  <button class="button" ng-click="vm.addContact()">Add Contact</button> -->
                 </li>
             </ul>
